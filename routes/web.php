@@ -28,3 +28,5 @@ Route::get('/home', function () {
 Route::get('/create', function(){
     return view('create.create');
 });
+
+Route::resource('user','UsersController');
